@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Telex&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte1: 'DM Serif Display', serif;
+    --fonte2: 'Telex', sans-serif;;
+    --fonte3: 'Sriracha', cursive;
+}
+html, body {
+    min-height: 100vh;
+    background-color: rgba(255, 0, 0, 0.411);
+    background-image: url(/src/imagens/fundo2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.titulos{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2em;
+}
+#titulo1{
+    padding-bottom: 12px;
+    font-size: 1.5em;
+    font-family: var(--fonte1);
+    color: white;
+}
+#titulo2{
+    font-family: var(--fonte2);
+    color: white;
+    font-size: 0.8em;
+}
+.centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#centro_centro{
+    margin: 30px;
+    width: 550px;
+    height: 350px;
+    background-color: rgba(82, 9, 9, 0.5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.social{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
